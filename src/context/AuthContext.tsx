@@ -33,7 +33,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setIsLoading(true);
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      setCurrentUser(userCredential.user); // ✅ update currentUser
+      setCurrentUser(userCredential.user);
     } finally {
       setIsLoading(false);
     }

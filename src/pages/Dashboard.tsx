@@ -13,7 +13,7 @@ const Dashboard: React.FC = () => {
     {
       name: 'Total Logs Today',
       value: todayLogs.length,
-      change: '+12.5%',
+      change: '+13.5%',
       icon: <FileText size={20} className="text-blue-500" />,
       trend: 'up',
     },

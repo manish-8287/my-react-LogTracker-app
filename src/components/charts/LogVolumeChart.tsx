@@ -28,7 +28,7 @@ const LogVolumeChart: React.FC = () => {
     datasets: [
       {
         label: 'Log Volume',
-        data: [1200, 1900, 1500, 1700, 2100, 1800, 1600],
+        data: [5200, 1900, 1500, 170, 2100, 1800, 1600],
         fill: true,
         backgroundColor: 'rgba(13, 148, 136, 0.1)',
         borderColor: 'rgba(13, 148, 136, 1)',
